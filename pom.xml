@@ -4,17 +4,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.vw.integration.kafka</groupId>
+	<groupId>com.southforestlab.integration</groupId>
 	<version>0.0.1-SNAPSHOT</version>
-	<artifactId>sb-kafka-producer</artifactId>
-	<name>Springboot :: Kafka :: Avro</name>
+	<artifactId>sb-camel-timer-kafka-producer</artifactId>
 
 	<properties>
 		<category>Messaging</category>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<spring.boot-version>2.5.4</spring.boot-version>
-		<camel.version>3.12.0</camel.version>
+		<spring.boot-version>2.6.1</spring.boot-version>
+		<camel.version>3.13.0</camel.version>
 		<kafka-avro-serializer-version>5.2.2</kafka-avro-serializer-version>
 		<avro-version>1.8.1</avro-version>
 		<maven.compiler.source>11</maven.compiler.source>
