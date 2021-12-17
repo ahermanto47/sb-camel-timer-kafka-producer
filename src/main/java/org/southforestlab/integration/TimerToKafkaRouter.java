@@ -12,7 +12,7 @@ public class TimerToKafkaRouter extends RouteBuilder {
     public void configure() throws Exception {
 
 
-    	from("timer:foo?period={{myPeriod}}").routeId("timer")
+    	from("timer:foo?period={{period}}").routeId("timer")
     	    .setBody().simple("Hello")
       	    .to("kafka:{{producer.topic}}?brokers={{kafka.host}}:{{kafka.port}}");
 
